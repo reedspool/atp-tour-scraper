@@ -1,0 +1,39 @@
+* Pair Programming - Ruby Web Scraping
+
+
+Adam's learning Ruby! And we want to do some scraping.
+
+
+
+
+** Technology
+*** ~~Floobits~~ - pair program on different text editors
+*** Zerotier + Tmux - share a terminal (Adam's logged in to my computer unsafely)
+*** [[https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags][Not using regex for HTML]]
+*** https://github.com/lorien/awesome-web-scraping/blob/master/ruby.md
+*** Trying Kimurai
+
+
+** Goals
+1. https://github.com/vifreefly/kimuraframework#installation
+2. https://www.atptour.com/en/scores/archive/australian-open/580/2019/results
+3. $ kimurai console --engine selenium_chrome --url https://www.atptour.com/en/scores/archive/doha/580/2019/results
+4. Write a Ruby file (.rb) that uses Kimurai to open that website and prints the title
+   1. Make a new file in our project
+   2. Bring in (load) kimurai gem
+   3. Use kimurai to open the website
+   4. Get the title and print it
+5. Loop through all the different "Tournament IDs" and print all their titles
+   1. Make sure we don't overload their servers
+   2. Instead of print out to terminal, let's write to a file, so that we don't have to re-run these processes.
+6. When kimurai is done parsing all our URLs and writing each into our file, then close our written file
+7. BUG! why isn't @file available? (I think I know why, I think they are "class isntance vars", so @@
+
+
+What does def (param:) mean? With nothing after colon?
+
+
+** Random stuff
+
+pickledonkeyknife.com
+https://www.felienne.com/about
