@@ -10,7 +10,7 @@ class ATPTourSpider < Kimurai::Base
   }
   @start_urls = []
 
-  (0..10000).each do |n|
+  (4180..10000).each do |n|
     @start_urls << "https://www.atptour.com/en/scores/archive/pickledonkeyknife/#{n}/2019/results"
   end
 
